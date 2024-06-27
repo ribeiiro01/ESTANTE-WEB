@@ -52,7 +52,11 @@ nav a {
     cursor: pointer;
 }
 
-/*  */
+/* qualquer item com essa class
+muda o display para flex
+coloca o espaço vazio da horizontal no meio dos elementos
+alinha o itens na vertical com base no seu centro
+ */
 .logo-busca {
     display: flex;
     justify-content: space-between;
