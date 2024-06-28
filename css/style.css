@@ -75,6 +75,7 @@ body {
 main {
     flex-grow: 1;
     background-color: var(--terciaria);
+    
 }
 
 #index {
@@ -111,4 +112,28 @@ footer {
 
 .img-fim img {
     margin: 0 1rem;
+}
+
+#centro {
+    display: grid;
+text-align: center;
+color: var(black);
+background-color: #915f32;
+margin: 3rem 40rem;
+font-size: 400%;
+}
+
+#meio {
+
+    display: grid;
+    text-align: center center;
+    color: var(black);
+    font-size: 350%;
+    margin: 10rem 0;
+
+}
+
+#dp {
+margin: 0 10rem;
+    text-align: center;
 }
