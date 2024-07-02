@@ -6,7 +6,7 @@
     --branco: white;
     --preto: black;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /* acessa todos os elementoss
 remove todas as margens
 remove todos os paddins
@@ -135,5 +135,16 @@ font-size: 400%;
 
 #dp {
 margin: 0 10rem;
-    text-align: center;
+    text-align: center ;
+   
+    
+}
+
+#contato {
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    line-height: 2; /* Ajuste conforme necessário */
 }
