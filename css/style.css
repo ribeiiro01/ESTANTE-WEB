@@ -149,26 +149,30 @@ flex-direction: column;
     line-height: 2; /* Ajuste conforme necessário */
 }
 
-#cor { 
+#login { 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    text-align: start;
+    align-items: center;
+    text-align: center;
     background-color: var(--secundaria);
-   margin: 13rem 45rem;
+   margin: 13rem 50rem;
    padding: 30px;
     border-radius: 5px;
-    width: 300px;
+    width: 15%;
     font-size: 125%;
+    border-radius: 15px;
     gap: 15px;
+    
 }
 button { 
 
     background-color: var(--primaria);
     color: var(--branco);
-    align-items: center;
-    text-align: center;
+    align-items: flex-end;
+    text-align: end;
+    font-size: 125%;
+    margin: 2rem;
 }
 
 h2 {  
@@ -182,5 +186,7 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    margin:-10rem 0 ;
     }
-
+ 
