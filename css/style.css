@@ -190,3 +190,34 @@ h2 {
     margin:-10rem 0 ;
     }
  
+.fav_e {
+
+
+flex: 1;
+flex-direction: column;
+background-color: var(--secundaria);
+margin: 150px 0px;
+margin-right: 100rem;
+font-size: 150%;
+gap: 50px;
+
+
+}
+
+.fav_d { 
+
+    
+    flex: 1;
+    flex-direction: column;
+background-color: var(--secundaria);
+margin-right: 2000rem;
+font-size: 150%;
+gap: 50px;
+padding: px;
+    
+
+}
+ #ladolado { 
+
+    display: flex;
+ }
