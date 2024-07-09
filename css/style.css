@@ -190,34 +190,45 @@ h2 {
     margin:-10rem 0 ;
     }
  
-.fav_e {
 
-
-flex: 1;
-flex-direction: column;
-background-color: var(--secundaria);
-margin: 150px 0px;
-margin-right: 100rem;
-font-size: 150%;
-gap: 50px;
-
-
-}
-
-.fav_d { 
-
-    
-    flex: 1;
-    flex-direction: column;
-background-color: var(--secundaria);
-margin-right: 2000rem;
-font-size: 150%;
-gap: 50px;
-padding: px;
+#favoritos { 
+  
+    margin: 100px ;
+    font-size: 300%;
+    align-items: ;
     
 
 }
- #ladolado { 
 
+
+
+#fav-livros { 
+
+   
     display: flex;
- }
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 3%;
+
+}
+
+
+.livros-fav { 
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+
+.tam { 
+
+    font-size: 200%
+}
