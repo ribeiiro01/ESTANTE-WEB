@@ -6,7 +6,9 @@
     --branco: white;
     --preto: black;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 /* acessa todos os elementoss
 remove todas as margens
 remove todos os paddins
@@ -75,7 +77,7 @@ body {
 main {
     flex-grow: 1;
     background-color: var(--terciaria);
-    
+
 }
 
 #index {
@@ -115,57 +117,63 @@ footer {
 }
 
 #centro {
-    display: grid;
-text-align: center;
-color: var(black);
-background-color: #915f32;
-margin: 3rem 40rem;
-font-size: 400%;
+    display: flex;
+    text-align: center;
+    color: var(black);
+    background-color: #915f32;
+    margin: 100px;
+    font-size: 400%;
 }
 
 #meio {
 
-    display: grid;
-    text-align: center center;
+    display: flex;
+    text-align: center;
     color: var(black);
     font-size: 350%;
-    margin: 10rem 0;
+    margin: auto;
 
 }
 
 #dp {
-margin: 0 10rem;
-    text-align: center ;
-   
-    
+    margin: auto;
+    text-align: center;
+
+
 }
 
 #contato {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 500%;
-    line-height: 2; /* Ajuste conforme necessário */
+    line-height: 2;
 }
 
-#login { 
+.cor {
+    background-color: var(--primaria);
+
+}
+
+#login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: var(--secundaria);
-   margin: 13rem 50rem;
-   padding: 30px;
+    margin: auto;
+    padding: 30px;
     border-radius: 5px;
-    width: 15%;
+    width: 300px;
     font-size: 125%;
     border-radius: 15px;
     gap: 15px;
-    
+
 }
-button { 
+
+button {
 
     background-color: var(--primaria);
     color: var(--branco);
@@ -175,60 +183,87 @@ button {
     margin: 2rem;
 }
 
-h2 {  
+h2 {
 
     text-align: center;
     margin-bottom: 20px;
 }
 
-.crie_sua_conta { 
+.crie_sua_conta {
 
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin:-10rem 0 ;
-    }
- 
-
-#favoritos { 
-  
-    margin: 100px ;
-    font-size: 300%;
-   
-    
-
+    margin: auto;
 }
 
 
 
-#fav-livros { 
 
-   
+
+
+
+
+
+.login-centro {
+
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+#centralizar {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+#fav-livros {
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: var(--secundaria);
+    width: auto;
     
-    position: absolute;
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  gap: 3%;
-
 }
 
+.tam {
 
-.livros-fav { 
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-align-items: center;
-
+    font-size: 300%;
 }
 
-.tam { 
+#LADO { 
 
-    font-size: 200%
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    
+}
+
+#categorias { 
+
+    background-color: var(--secundaria);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 150%;
+    
+}
+
+.cor-cat { 
+
+    background-color: var(--terciaria);
+    width:100%;
 }
